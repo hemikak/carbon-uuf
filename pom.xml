@@ -265,7 +265,7 @@
 
         <!-- Dependencies for UUF -->
         <maven.bundle.plugin.version>2.5.0</maven.bundle.plugin.version>
-        <carbon.kernel.version>5.0.0</carbon.kernel.version>
+        <carbon.kernel.version>5.1.0</carbon.kernel.version>
         <carbon.kernel.version.range>[5.0,6)</carbon.kernel.version.range>
         <carbon.feature.plugin.version>2.0.0</carbon.feature.plugin.version>
         <carbon.cache.version>1.0.0</carbon.cache.version>
