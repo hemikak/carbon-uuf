@@ -129,6 +129,9 @@
         <include.resource>
             src/main/resources
         </include.resource>
+        <carbon.component>
+            osgi.service; objectClass="org.wso2.msf4j.Microservice";serviceCount="1"
+        </carbon.component>
     </properties>
 
 </project>

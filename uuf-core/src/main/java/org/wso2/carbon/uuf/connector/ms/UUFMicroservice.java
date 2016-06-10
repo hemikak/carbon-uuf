@@ -49,7 +49,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Component(name = "org.wso2.carbon.uuf.connector.ms.UUFMicroservice",
            service = Microservice.class,
-           immediate = true)
+           immediate = true,
+           property = {
+                   "componentName=carbon-uuf-microservice"
+           }
+)
 @Path("/")
 public class UUFMicroservice implements Microservice {
 
