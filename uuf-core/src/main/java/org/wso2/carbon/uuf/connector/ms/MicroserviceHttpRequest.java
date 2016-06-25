@@ -56,7 +56,7 @@ public class MicroserviceHttpRequest implements org.wso2.carbon.uuf.api.HttpRequ
     public MicroserviceHttpRequest(Request request, byte[] contentBytes) {
         this.url = null; // MSF4JRequest does not have a 'getUrl()' method.
         this.method = request.getHttpMethod();
-        this.protocol = request.getProperty(Constants.HTTP_VERSION).toString();
+        this.protocol = request.getProperty("HTTP_VERSION").toString();
         this.headers = request.getHeaders();
         String rawUri = request.getUri();
         int uriPathEndIndex = rawUri.indexOf('?');
